@@ -3,7 +3,8 @@
 [![PyPI](https://img.shields.io/pypi/v/beeminder-to-sqlite.svg)](https://pypi.org/project/beeminder-to-sqlite/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/bcongdon/beeminder-to-sqlite/blob/master/LICENSE)
 
-TODO: Add brief description
+Save data from [Beeminder](https://www.beeminder.com/) to a SQLite database.
+Supports saving goal data and data points.
 
 ## How to install
 
@@ -21,7 +22,14 @@ the required value. To save the file at a different path or filename, use the
 
 ## Usage
 
-TODO: Add usage instructions
+After you've setup your authentication, you can use the following commend to
+download and save your Beeminder data:
+
+    $ beeminder-to-sqlite goals beeminder.db
+
+More detailed help can be found by running the command with `--help`
+
+    $ beeminder-to-sqlite --help
 
 ## Attribution
 
